@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: white;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    background: #111111;
+
+}
+#main{
+     display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */ 
+    height: 85%;
+    width: 100%;
+    background-color: #1111;
+    padding: 4vw 8vw;
+
+}
+#left{
+    height: 100%;
+    width: 45%;
+    background-color: #444;
+    /* background-image: url('./dil to baccha hai.jpg'); */
+    background-size: cover;
+    background-position: center;
+}
+#right{
+    height: 100%;
+    width: 45%;
+    background-color: #666;
+    padding: 0 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#right h3{
+   
+    font-size: 2rem;
+    padding-top: 10px;
+}
+.allsong{
+    /* background-color: red; */
+    height: 85%;
+    margin-top: 17px;
+
+
+}
+.songcard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #fff;
+    padding: 8px 10px;
+}
+.songcard:hover{
+    background-color: #444;
+}
+.songcard:nth-last-child(1){
+    border-bottom: 1px solid #fff;
+}
+.songcard .part1{
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+
+}
+.songcard img{
+    height: 50px;
+    width: 50px;
+    margin-right: 20px; 
+}
+.songcard h2{
+    font-size: 1.2rem;
+}
+#player{
+    height: 15%;
+    width: 100%;
+    background-color: #201f1f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+}
+#player h3{
+    background-color: #8d8d8d;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#player h3 i{
+    font-size: 1.5rem;
+}
+
+#player h3:active{
+    scale: 0.9;
+}
+
+
